@@ -3,3 +3,7 @@ Scrivere echo "stringa" >> nomeFile scrive nel file
 
 E' possibile modificare un commit con commento errato usando:
 "git commit --amend", che apre un editor per la modifica.
+
+E' possibile collegare un commit a una issue segnalata:
+git commit -m "Whatever. See #x"
+dove x è l'identificatore numerico della issue in questione.
