@@ -10,3 +10,15 @@ dove x è l'identificatore numerico della issue in questione.
 
 
 Analogamente si può segnalare la risoluzione di una issue utilizzando il comando "Fix" al posto di "See".
+
+0) Git init
+1) Creazione file
+2) git add nomeFile / git add nomeDirectory/*  (aggiunta allo staging)
+3) git commit -m "someComment"
+4) Creare repository remoto
+5) Linkare repository locale a quella remota (git remote http://...)
+6) git push origin master
+7) Aggiornamento/modifica dei file
+8) Goto 6)
+
+NOTA: E' buona norma, al momento di riprendere un lavoro dopo una pausa consistente (ad esempio il giorno successivo), accertarsi di sincronizzare il lavoro mediante pull (NtS: verifica la sintassi precisa del comando!)
