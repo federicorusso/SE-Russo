@@ -7,3 +7,5 @@ E' possibile modificare un commit con commento errato usando:
 E' possibile collegare un commit a una issue segnalata:
 git commit -m "Whatever. See #x"
 dove x è l'identificatore numerico della issue in questione.
+
+Analogamente si può segnalare la risoluzione di una issue utilizzando il comando "Fix" al posto di "See"
